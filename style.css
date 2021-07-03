@@ -6,12 +6,16 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
 
     color: darkorange;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .paglu{
     width: 50%;
@@ -33,3 +37,36 @@ section{
     background-repeat: no-repeat;
     
 }
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+
+}
+.exprerince{
+    background-image: url(/images/exp-bg.png)
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.paglu2{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border: 10px solid;
+}
+#webdev{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, blue) 27;}
+    border-image-slice:1;
+
+    #webdev2{
+        border-left: 7px solid;
+    border-image: linear-gradient(red, blue) 27;}
+    border-image-slice:1;
+    p {
+        text-align: center;
+    }

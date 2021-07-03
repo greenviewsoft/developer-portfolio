@@ -67,6 +67,4 @@ h2{
         border-left: 7px solid;
     border-image: linear-gradient(red, blue) 27;}
     border-image-slice:1;
-    p {
-        text-align: center;
-    }
+    

@@ -43,10 +43,10 @@ h2{
     background-position-x: right;
 
 }
-.exprerince{
-    background-image: url(/images/exp-bg.png)
+.exprerince-item{
+    background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: left;
+    
 }
 
 .paglu2{
@@ -56,15 +56,23 @@ h2{
     padding-left: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
-    border: 10px solid;
+    
 }
-#webdev{
-    border-left: 7px solid;
-    border-image: linear-gradient(red, blue) 27;}
-    border-image-slice:1;
+
 
     #webdev2{
         border-left: 7px solid;
-    border-image: linear-gradient(red, blue) 27;}
+    border-image: linear-gradient(red, blue) 27;
     border-image-slice:1;
-    
+}
+ 
+
+    #webdev3{
+        border-left: 7px solid;
+        border-image: linear-gradient(rgb(62, 199, 21), blue) 27;
+        border-image-slice:1;
+    }
+      
+    footer p{
+text-align: center;
+    }
